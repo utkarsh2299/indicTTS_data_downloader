@@ -6,7 +6,7 @@ This repository helps avoid manual clicking of multiple “Latest” download bu
 
 ---
 
-## 🔗 Dataset Source
+##  Dataset Source
 
 IndicTTS Database (IITM):
 https://www.iitm.ac.in/donlab/indictts/database
@@ -15,7 +15,7 @@ https://www.iitm.ac.in/donlab/indictts/database
 
 ---
 
-## ✨ Features
+##  Features
 
 * Bulk download all datasets via a single command
 * Resume interrupted downloads (`wget -c`)
@@ -24,7 +24,7 @@ https://www.iitm.ac.in/donlab/indictts/database
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 .
@@ -106,18 +106,18 @@ https://example.com/dataset2.zip
 
 ## Important Notes
 
-* 📜 **License Compliance**:
-  By downloading, you agree to the dataset license from IITM.
+*  **License Compliance**:
+  By downloading, you agree to the dataset license from IITM (https://www.iitm.ac.in/donlab/indictts//downloads/license.pdf).
 
 
-* 🌐 Ensure your server has:
+*  Ensure your server has:
 
   * Stable internet connection
   * Enough disk space (datasets are large)
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 * `wget` (required)
 
@@ -141,7 +141,7 @@ You can:
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * [ ] Auto-scraper for latest links
 * [ ] Language-wise selective download
@@ -151,7 +151,7 @@ You can:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
