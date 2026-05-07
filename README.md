@@ -1,8 +1,8 @@
 # IndicTTS Dataset Downloader
 
-A simple, server-friendly utility to download **latest monolingual datasets** from the IndicTTS database hosted by IIT Madras.
+A simple, server-friendly utility to download **latest monolingual datasets** from the IndicTTS database hosted by IIT Madras (as of 07/May/2026).
 
-This repository helps avoid manual clicking of multiple “Latest” download buttons by enabling **bulk downloads using `wget` or `aria2`**.
+This repository helps avoid manual clicking of multiple “Latest” download buttons by enabling **bulk downloads using `wget`
 
 ---
 
@@ -17,11 +17,10 @@ https://www.iitm.ac.in/donlab/indictts/database
 
 ## ✨ Features
 
-* 📥 Bulk download all datasets via a single command
-* 🔁 Resume interrupted downloads (`wget -c`)
-* ⚡ Optional high-speed parallel downloads using `aria2`
-* 🖥️ Designed for remote servers / SSH environments
-* 🧩 Easily extensible (add/remove datasets via `urls.txt`)
+* Bulk download all datasets via a single command
+* Resume interrupted downloads (`wget -c`)
+* Designed for remote servers / SSH environments
+* Easily extensible (add/remove datasets via `urls.txt`)
 
 ---
 
@@ -38,7 +37,7 @@ https://www.iitm.ac.in/donlab/indictts/database
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repository
 
@@ -71,20 +70,7 @@ indictts_latest_models/
 
 ---
 
-## ⚡ Faster Downloads (Recommended)
-
-If you are working on a server with good bandwidth, use `aria2` for parallel downloads:
-
-```bash
-aria2c -x 16 -s 16 -i urls.txt -d indictts_latest_models
-```
-
-* `-x 16` → 16 connections per file
-* `-s 16` → 16 parallel segments
-
----
-
-## 🧾 How It Works
+## How It Works
 
 1. The IndicTTS website provides datasets via individual **“Latest” download buttons**
 2. These links are extracted and stored in `urls.txt`
@@ -98,7 +84,7 @@ to download all datasets automatically
 
 ---
 
-## ➕ Adding / Updating Datasets
+## Adding / Updating Datasets
 
 To add new datasets:
 
@@ -118,16 +104,11 @@ https://example.com/dataset2.zip
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 * 📜 **License Compliance**:
   By downloading, you agree to the dataset license from IITM.
 
-* 🔐 Some datasets may require:
-
-  * Prior approval
-  * Email request
-  * License agreement
 
 * 🌐 Ensure your server has:
 
@@ -139,12 +120,11 @@ https://example.com/dataset2.zip
 ## 🛠 Requirements
 
 * `wget` (required)
-* `aria2` (optional, for faster downloads)
 
 Install if needed:
 
 ```bash
-sudo apt install wget aria2
+sudo apt install wget
 ```
 
 ---
